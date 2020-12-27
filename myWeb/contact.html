@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <style>
+            .contact-us {
+                margin: 3% 20% 0 20%;  
+            }
+            label, input, textarea {
+                display: block;
+                width: 100%;
+                font-size: 12pt;
+                line-height: 18pt;
+            }
+            textarea {
+                resize: none;
+            }
+            input,textarea,button {
+                margin-bottom: 24pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(234, 255, 249);">
+        <!--header-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:aquamarine;">
+            <div class="container-fluid">
+				<div class="navbar-header">
+					<ul class="nav navbar-nav navbar-left">
+						<li><img alt="Brand" src="https://stickershop.line-scdn.net/stickershop/v1/product/7853350/LINEStorePC/main.png;compress=true" width="50" height="50"></li>
+						<li><a class="navbar-brand" href="homepage.html">Homepage</a></li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="grader.html">CalculateGrade</a></li>
+					</ul>
+				</div>
+			</div>
+        </nav>
+        <!--content-->
+        <div class="contact-us">
+            <center><h2>For contact</h2></center>
+            <form action="#">
+                <h4>หัวข้อ</h4>
+                <input type="text" name="subject">
+                <h4>ชื่อผู้ส่ง</h4>
+                <input type="text" name="name">
+                <h4>อีเมล</h4>
+                <input type="email" name="email">
+                <h4>เบอร์โทร</h4>
+                <input type="tel" name="phoneNum">
+                <h4>ข้อความ</h4>
+                <textarea id="customerNote" name="customerNote" required="" rows="4"></textarea>
+                <center><button>SUBMIT</button></center>
+            </form>
+          </div>
+    </body>
+</html>
