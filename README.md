@@ -1,3 +1,5 @@
+# Deploy Web : https://cpe-cmu-261207.github.io/lab-02-ZenPtc/index.html
+
 # 261207-Lab-02
 ### Week 2 - CSS and JavaScript
 
